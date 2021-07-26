@@ -1,0 +1,49 @@
+! xterm color scheme
+
+!!! Enable copy/paste
+! http://www.davidsimmons.com/soft/xtermhacks/
+xterm*VT100.translations: #override <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0)
+
+!!! Foreground
+xterm*foreground: #d3d3d3
+
+!!! Background
+! Black
+!xterm*background: #000000
+! Dark Blue
+xterm*background: #1d3557
+! Green
+!xterm*background: #022C0A
+! Brown
+!xterm*background: #3F2F08
+
+!!! CursorColor
+xterm*cursorColor: #f8edeb
+
+! Blacks
+xterm*color0: #151515
+xterm*color8: #505450
+! Reds
+xterm*color1: #a60101
+xterm*color9: #f99090
+! Greens
+xterm*color2: #026802
+xterm*color10: #a7e14b
+! Yellows
+xterm*color3: #ab6e03
+xterm*color11: #fddc01
+! Blues
+xterm*color4: #4a5463
+xterm*color12: #7d8794
+! Purples
+xterm*color5: #9c3885
+xterm*color13: #e628ba
+! Cyans
+xterm*color6: #08bab0
+xterm*color14: #74fff7
+! Whites
+xterm*color7: #bbbbbb
+xterm*color15: #ffffff
+
+
+
