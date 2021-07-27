@@ -73,7 +73,7 @@ set shiftwidth=2
 " always uses spaces instead of tab characters
 set expandtab
 
-colorscheme gruvbox
+"colorscheme gruvbox
 
 " sync open file with NERDTree
 " " Check if NERDTree is open or active
@@ -96,7 +96,7 @@ autocmd BufEnter * call SyncTree()
 " coc config
 let g:coc_global_extensions = [
 	\ 'coc-snippets',
-	\ 'coc-pairs',  " autocomplete parentheses
+	\ 'coc-pairs',  
 	\ 'coc-tsserver',
 	\ 'coc-eslint',
 	\ 'coc-prettier',
